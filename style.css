@@ -1,0 +1,1183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.off-screen-menu {
+  display: none;
+}
+
+.mob-nav {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.mobileheader {
+  display: none;
+}
+
+.header {
+  height: 100%;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.page-heading h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.menu li {
+  padding: 1rem 2rem;
+}
+
+.menu li a {
+  font-size: 1.3rem;
+}
+
+.menu li:hover {
+  background-color: indianred;
+  height: 1rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s;
+}
+
+.user-profile img {
+  width: 2rem;
+  padding: 1rem;
+}
+
+.sect1Img {
+  background-image: url("/assets/cover-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -10;
+  margin-top: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  width: 100%;
+  height: 500px;
+}
+
+#coverImg {
+  filter: contrast(0.8);
+}
+
+.section1ImgFilter {
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.sect1Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 185px;
+}
+
+.sect1Text h1 {
+  color: #fff;
+}
+
+.searchbar input {
+  padding: 1rem;
+  border-radius: 25px;
+  width: 80%;
+  outline: none;
+  border: none;
+}
+
+.searchbar button {
+  min-width: 100px;
+  border-radius: 30px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  flex-wrap: wrap;
+}
+
+.searchbar {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  /* margin: auto; */
+  justify-content: center;
+}
+
+.section2-container {
+  width: 100%;
+  height: 645px;
+}
+
+.section2 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 400px;
+  z-index: 1;
+  background-image: url(assets/section2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-2 {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: -165px;
+}
+
+.section-2::before {
+  content: "Share";
+  color: black;
+  position: relative;
+  bottom: 453px;
+  opacity: 0.1;
+  font-weight: 600;
+  filter: contrast(0.8);
+  display: block;
+  font-size: 10rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 5px;
+}
+
+.section2-heading {
+  margin-top: 139px;
+  opacity: 0.1;
+  color: black;
+  font-weight: 600;
+  filter: contrast(0.8);
+  display: block;
+  font-size: 10rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 5px;
+  padding: 0rem 7rem;
+}
+
+.section2::after {
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.section2-textDiv {
+  top: -295px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 365px;
+  background-color: #fff;
+  opacity: 1;
+  padding: 2rem;
+  border-radius: 20px;
+  justify-self: end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section2-textDiv h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: rgb(65, 64, 64);
+  position: relative;
+  text-align: center;
+  margin: 0;
+}
+
+.section2-textDiv p {
+  text-align: left;
+  font-weight: 100;
+  margin: 0px 10px;
+  color: rgb(105, 105, 105);
+}
+
+.section2-textDiv button {
+  width: 12rem;
+  padding: 1rem;
+  background-color: darksalmon;
+  border: none;
+  border-radius: 25px;
+  margin: auto;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.section2-textDiv button:hover {
+  background-color: lightcoral;
+  transition: transform 5s;
+}
+
+#sect2Img {
+  filter: brightness(0.8);
+}
+
+.section-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section3-container {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.row3 {
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  max-width: 1320px;
+  position: relative;
+  top: -64px;
+}
+
+.col1 {
+  height: 350px;
+  min-width: 230px;
+  max-width: 300px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin-right: 8px;
+}
+
+.section3-heading::before {
+  font-weight: 600;
+  opacity: 0.1;
+  content: "Cities";
+  font-size: 145px;
+  letter-spacing: 5px;
+}
+
+.section3-heading::after {
+  content: "Select Your City";
+  font-size: 20px;
+  position: absolute;
+  z-index: 3;
+  top: 75px;
+  left: 0px;
+}
+
+.isl-img {
+  background-image: url("assets/islamabad.jpg");
+}
+
+.isl-img::after {
+  color: #fff;
+  font-size: 2rem;
+  content: "";
+  z-index: 3;
+  position: relative;
+  bottom: -305px;
+  left: 14px;
+  font-weight: 600;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.isl-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.kch-img::after {
+  color: #fff;
+  font-size: 2rem;
+  content: "";
+  z-index: 3;
+  position: relative;
+  bottom: -305;
+  left: 14px;
+  font-weight: 600;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.kch-img {
+  background-image: url("assets/karachi.jpg");
+}
+
+.kch-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.psh-img {
+  background-image: url("assets/peshawar.jpg");
+}
+
+.psh-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.mltn-img::after {
+  color: #fff;
+  font-size: 2rem;
+  content: "";
+  z-index: 3;
+  position: relative;
+  bottom: -305px;
+  left: 14px;
+  font-weight: 600;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.mltn-img {
+  background-image: url("assets/multan.jpg");
+}
+
+.mltn-img:hover .city-name {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.lhr-img::after {
+  color: #fff;
+  font-size: 2rem;
+  content: "";
+  z-index: 3;
+  position: relative;
+  bottom: -305px;
+  left: 14px;
+  font-weight: 600;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.lhr-img {
+  background-image: url("assets/lahore.jpg");
+}
+
+.lhr-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.isl-img,
+.psh-img,
+.mltn-img,
+.kch-img,
+.lhr-img {
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.bi {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section4-image {
+  background-image: url("assets/home-foodpanda-apps.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section4-image img {
+  border: 4px solid red;
+}
+
+.city-box {
+  position: relative; 
+  filter: brightness(0.8); 
+  transition: transform 0.5s ease; 
+  overflow: hidden; 
+}
+
+.city-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent); /* Semi-transparent black overlay */
+  opacity: 0.5; 
+  transition: opacity 0.5s ease; 
+}
+
+.city-box:hover {
+  transform: scale(1.1);
+}
+
+.city-box:hover::after {
+  opacity: 1; 
+}
+
+.city-name {
+ position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.city-name:hover {
+  cursor: pointer; 
+  opacity: 0;
+}
+
+
+.section3-images img {
+  width: 260px;
+  height: 285px;
+  filter: brightness(0.6);
+}
+
+.section3-images .image-box {
+  height: 350px;
+  min-width: 100px;
+  max-width: 300px;
+  flex-grow: 1;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin-right: 20px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.section3 {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.section4 {
+  background-color: indianred;
+  width: 100%;
+  height: 290px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.app-heading::before {
+  content: "App";
+  position: relative;
+  bottom: 107px;
+  left: 92px;
+  opacity: 0.1;
+  font-size: 7.4rem;
+  font-weight: 600;
+  z-index: -1;
+}
+
+.section4-subcontainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin: -95px auto;
+  position: relative;
+}
+
+.section4-img {
+  background-image: url(assets/home-foodpanda-apps.png);
+  width: 50%;
+  position: absolute;
+  height: 600px;
+  background-size: auto 640px;
+  background-position-x: left;
+  background-repeat: no-repeat;
+  margin-left: 50%;
+  margin-top: -200px;
+}
+
+.sect5-container {
+  margin-top: 110px;
+}
+
+.section4-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  padding-left: 140px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  width: 13rem;
+}
+
+.buttons button img {
+  height: 3rem;
+}
+
+.section5 {
+  width: 80%;
+  margin-left: auto;
+  position: relative;
+  line-height: 1.5rem;
+  margin-right: auto;
+  margin-top: 170px;
+}
+
+.section5 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(78, 78, 78);
+}
+
+.section5 li {
+  padding-left: 20px; 
+  position: relative;
+  color: rgb(78, 78, 78);
+}
+
+.section5 li::before {
+  content: "\2713"; /* Unicode checkmark */
+  color: gray;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.section5 h2 {
+  color: #000;
+}
+
+.section5 p {
+  color: rgb(78, 78, 78);
+}
+
+hr {
+  margin: 1rem 0rem;
+  color: rgb(78, 78, 78);
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.footer hr {
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  width: 85%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.9rem;
+  line-height: 0.4rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+
+.footer-text {
+  color: rgb(78, 78, 78);
+  display: flex;
+  justify-content: center;
+  margin-top: 0.9rem;
+}
+
+.last-footer-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.last-footer-links p {
+  position: relative;
+  top: -1px;
+}
+
+.last-footer-links a {
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .mobileheader {
+    height: 100%;
+    background-color: #ffd5d4;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .section2 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 295px;
+    z-index: 1;
+    background-image: url(assets/section2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .searchbar input {
+    padding: 1rem;
+    border-radius: 25px;
+    min-width: 285px;
+    outline: none;
+    border: none;
+  }
+
+  .section4 {
+    max-height: 295px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .buttons button {
+    width: 9rem;
+  }
+
+  .buttons button img {
+    height: 2.5rem;
+  }
+
+  .section4-img {
+    background-size: auto 500px;
+  }
+
+  .searchbar {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .off-screen-menu {
+    right: 1000px;
+    width: 45%;
+  }
+
+  .off-screen-menu.active {
+    right: 440px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section3::before {
+    font-weight: 600;
+    opacity: 0.1;
+    content: "Cities";
+    font-size: 145px;
+    letter-spacing: 5px;
+    position: relative;
+    top: 65px;
+  }
+
+  .footer {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .header {
+    display: none;
+  }
+
+  .off-screen-menu {
+    background-color: indianred;
+    height: 100vh;
+    width: 50%;
+    max-width: 395px;
+    z-index: 10;
+    /* margin-top: 82px; */
+    position: fixed;
+    top: 0;
+    right: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 3rem;
+    font-size: 1.3rem;
+    transition: 0.3s ease;
+    text-align: end;
+  }
+
+  .off-screen-menu.active {
+    right: 590px;
+  }
+
+  .off-screen-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mob-nav {
+    padding: 1rem;
+    display: flex;
+    background-color: indianred;
+    height: 80px;
+    z-index: 12;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+  }
+
+  .ham-menu {
+    height: 50px;
+    width: 50px;
+    /* margin-left: auto; */
+    position: relative;
+  }
+
+  .ham-menu-logo {
+    height: 50%;
+  }
+
+  .ham-menu-user-profile {
+    height: 100px;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+  }
+
+  .ham-menu-user-profile img {
+    height: 25%;
+  }
+
+  .ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+  }
+
+  .ham-menu span:nth-child(1) {
+    top: 25%;
+  }
+
+  .ham-menu span:nth-child(3) {
+    top: 75%;
+  }
+
+  .ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .ham-menu.active span:nth-child(2) {
+    opacity: 0;
+    transform: translate(-100%, -100%);
+  }
+
+  .ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .section4Bg {
+    background-color: indianred;
+    width: 100%;
+    height: 565px;
+    position: relative;
+    top: 116px;
+    z-index: 1;
+  }
+
+  .section4 {
+    /* width: 80%; */
+    margin: 4rem auto;
+    position: relative;
+    max-height: 275px;
+  }
+
+  .section4-subcontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid orchid; */
+    margin: -46px auto;
+    position: relative;
+  }
+
+  .section4::before {
+    font-weight: 600;
+    opacity: 0.1;
+    position: relative;
+    /* bottom: 666px; */
+    content: "";
+    font-size: 0;
+  }
+
+  .section4-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    bottom: 65px;
+    /* flex-direction: column-reverse; */
+    z-index: 1;
+    width: 70%;
+    left: -122px;
+    gap: 1rem;
+    font-size: 1.1rem;
+    padding-left: 160px;
+  }
+
+  .section4-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .section4-content p {
+    font-size: 0.9rem;
+  }
+
+  .searchbar button {
+    min-width: 100px;
+    border-radius: 30px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    height: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .off-screen-menu {
+    right: 800px;
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  .off-screen-menu.active {
+    right: 260px !important;
+  }
+
+  .section2 {
+    margin-top: 375px;
+  }
+
+  .section-2::before {
+    font-size: 0rem;
+  }
+
+  .section3-heading::before {
+    font-size: 0rem;
+  }
+
+  .app-heading::before {
+    font-size: 0rem;
+  }
+
+  .section4 {
+    /* width: 100%; */
+    /* margin: auto; */
+    position: relative;
+    max-height: 295px;
+    background-color: indianred;
+    width: 100%;
+    min-height: 520px;
+    margin-top: 80px;
+  }
+
+  .section4::before {
+    font-weight: 600;
+    opacity: 0.1;
+    position: relative;
+    /* bottom: 666px; */
+    content: "";
+    font-size: 0rem;
+  }
+
+  .section4-subcontainer {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    /* border: 2px solid orchid; */
+    /* margin: -46px auto; */
+    /* position: relative; */
+  }
+
+  .section4-img {
+    background-image: url(assets/home-foodpanda-apps.png);
+    width: 100%;
+    position: absolute;
+    height: 480px;
+    /* max-height: 640px; */
+    background-size: auto 320px;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* border: 2px solid yellow; */
+    margin-left: auto;
+    margin-top: 0;
+    top: -115px;
+  }
+
+  .section4-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: -200px;
+    flex-direction: column;
+    z-index: 1;
+    width: 100%;
+    gap: 0rem;
+    font-size: 0.6rem;
+  }
+
+  .buttons {
+    gap: 0.5rem;
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .section4Bg {
+    height: 470px;
+  }
+
+  .section4-txt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    bottom: -17px;
+    color: white;
+  }
+
+  .section4-txt h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .section4-txt p {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    max-width: 85%;
+  }
+
+  .buttons button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 9rem;
+    cursor: pointer;
+  }
+
+  .buttons img {
+    width: 7rem;
+  }
+
+  .sect1Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+  }
+
+  .section2-textDiv {
+    top: -240px;
+    position: relative;
+    font-size: 0.9rem;
+  }
+
+  .section-2 {
+    width: 80%;
+    position: relative;
+    top: -165px;
+    display: flex;
+    justify-self: right;
+  }
+
+  .section3-images {
+    display: flex;
+    gap: 1.8rem;
+    overflow: scroll;
+    top: 0px;
+    position: relative;
+  }
+
+  .section3::after {
+    content: "Select Your City";
+    font-size: 18px;
+    position: relative;
+    bottom: 375px;
+  }
+
+  .section3-heading::after {
+    top: -70px;
+    /* left: 0px; */
+  }
+
+  .section3-container {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: 5rem auto;
+  }
+
+  .last-footer-links p {
+    /* position: relative; */
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .last-footer-links {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+  }
+
+  .last-footer-links p {
+    position: relative;
+    top: 0px;
+  }
+
+  .mobileheader {
+    max-height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sect1Text h1 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .searchbar button {
+    min-width: 100px;
+    border-radius: 30px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .section4-content {
+    overflow: visible;
+  }
+
+  .bi {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .section3 {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  .image-box {
+    height: 250px;
+    min-width: 180px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .off-screen-menu.active {
+    right: 215px;
+  }
+
+  .off-screen-menu {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .off-screen-menu.active {
+    right: 170px !important;
+  }
+
+  .off-screen-menu {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .off-screen-menu.active {
+    right: 265px;
+  }
+
+  .off-screen-menu {
+    width: 60%;
+  }
+}
