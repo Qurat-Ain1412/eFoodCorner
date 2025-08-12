@@ -262,14 +262,14 @@
   width: 100%;
   display: flex;
   overflow: scroll;
-  max-width: 1320px;
+  /* max-width: 1320px; */
   position: relative;
   top: -64px;
 }
 
 .col1 {
   height: 350px;
-  min-width: 230px;
+  min-width: 20%;
   max-width: 300px;
   background-color: rgb(255, 255, 255);
   position: relative;
