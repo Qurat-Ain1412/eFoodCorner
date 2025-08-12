@@ -72,7 +72,7 @@
 }
 
 .sect1Img {
-  background-image: url("/asset/cover-img.jpg");
+  background-image: url("/assets/cover-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -146,7 +146,7 @@
   position: relative;
   margin-top: 400px;
   z-index: 1;
-  background-image: url(asset/section2.jpg);
+  background-image: url(assets/section2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -296,7 +296,7 @@
 }
 
 .isl-img {
-  background-image: url("asset/islamabad.jpg");
+  background-image: url("assets/islamabad.jpg");
 }
 
 .isl-img::after {
@@ -331,7 +331,7 @@
 }
 
 .kch-img {
-  background-image: url("asset/karachi.jpg");
+  background-image: url("assets/karachi.jpg");
 }
 
 .kch-img:hover {
@@ -340,7 +340,7 @@
 }
 
 .psh-img {
-  background-image: url("asset/peshawar.jpg");
+  background-image: url("assets/peshawar.jpg");
 }
 
 .psh-img:hover {
@@ -362,7 +362,7 @@
 }
 
 .mltn-img {
-  background-image: url("asset/multan.jpg");
+  background-image: url("assets/multan.jpg");
 }
 
 .mltn-img:hover .city-name {
@@ -384,7 +384,7 @@
 }
 
 .lhr-img {
-  background-image: url("asset/lahore.jpg");
+  background-image: url("assets/lahore.jpg");
 }
 
 .lhr-img:hover {
@@ -408,7 +408,7 @@
 }
 
 .section4-image {
-  background-image: url("asset/home-foodpanda-apps.png");
+  background-image: url("assets/home-foodpanda-apps.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -514,7 +514,7 @@
 }
 
 .section4-img {
-  background-image: url(asset/home-foodpanda-apps.png);
+  background-image: url(assets/home-foodpanda-apps.png);
   width: 50%;
   position: absolute;
   height: 600px;
@@ -669,7 +669,7 @@ hr {
     position: relative;
     margin-top: 295px;
     z-index: 1;
-    background-image: url(asset/section2.jpg);
+    background-image: url(assets/section2.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -966,7 +966,7 @@ hr {
   }
 
   .section4-img {
-    background-image: url(asset/home-foodpanda-apps.png);
+    background-image: url(assets/home-foodpanda-apps.png);
     width: 100%;
     position: absolute;
     height: 480px;
